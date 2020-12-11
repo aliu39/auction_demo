@@ -1,38 +1,78 @@
-.App {
+/* prettier-ignore */
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  border-top: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+h2 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* background color + keep body fixed so only output is scrollable */
+body {
+  margin: 0;
+  background-color: #f5f5dc;
+  color: black;
+  font-family: Serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.root {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type="text"] {
+  width: 5%;
+  height: 1%;
+}
+
+canvas {
+  margin: 10px;
+  width: 17vw;
+  height: 17vw;
+}
+
+canvas.plot {
+  width: 30vw;
+  height: 30vw;
+}
+
+/* output */
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 85vh;
+  margin-left: 2vw;
+}
+
+img {
+  border-radius: 10%;
+  width: 400px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
