@@ -36,8 +36,8 @@ input[type="text"] {
 
 canvas {
   margin: 10px;
-  width: 17vw;
-  height: 17vw;
+  width: 20vw;
+  height: 20vw;
 }
 
 canvas.plot {
@@ -75,4 +75,13 @@ a:hover {
 }
 a:active {
   color: white;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+}
+#column {
+  width: 20vw;
+  text-align: center;
 }
