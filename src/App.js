@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Myerson from "./components/Myerson";
 
+//main app component
 class App extends React.Component {
   constructor(props) {
     super(props);
