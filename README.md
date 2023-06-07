@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Algorithmic Mechanism Design: DSIC Auctions
+
+Demo component for a theoretical computer science research project. Writeup included: see 251PROJECT.pdf
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
